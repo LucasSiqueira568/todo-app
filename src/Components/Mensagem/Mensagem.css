@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 37vw;
+    height: 55vh;
+    background-color: #41414c;
+    border-radius: 5px;
+
+}
+
+.container .boxMsg  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 37vw;
+    height: 55vh;
+    
+}
+
+.container .boxMsg p {
+    font-size: 3.3rem;
+    margin: 0 0 5% 0;
+    color: #FFF;
+}
+
+.container .boxMsg h1 {
+    color: #FFF;
+    font-weight: 800;
+    margin: 0 0 5% 0;
+}
+
+.container .boxMsg p:nth-child(3) {
+    color: #FFF;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.container .boxMsg .buttons {
+    display: flex;
+    justify-content: center;
+    width: 35vw;
+    margin: 5% 0 5% 0;
+}
+
+.container .boxMsg .buttons button:nth-child(1) {
+    background-color: #eff1f4;
+    width: 15vw;
+    height: 8vh;
+    border: none;
+    border-radius: 3px;
+    color: #595965;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 2%;
+    font-size: 1.2rem;
+}
+
+.container .boxMsg .buttons button:nth-child(2) {
+    background-color: #f93e37;
+    width: 15vw;
+    height: 8vh;
+    border: none;
+    border-radius: 3px;
+    color: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 2%;
+    font-size: 1.2rem;
+}
