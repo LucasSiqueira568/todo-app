@@ -1,0 +1,33 @@
+.Menu {
+    display: flex;
+    background-color: #000;
+    width: 15vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    grid-area: Menu;
+}
+
+
+
+.Menu ul {
+    margin: 60% 0%;
+    flex-grow: 2;
+}
+
+.Menu ul li {
+    list-style: none;
+    padding: 2%;
+    
+}
+
+.Menu ul li a {
+    text-decoration: none;
+    color: darkgray;
+    transition: 0.5ms;
+    font-weight: 600;
+}
+
+.Menu ul li a:hover {
+    color: #FFF;
+}

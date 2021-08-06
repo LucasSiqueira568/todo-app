@@ -1,0 +1,67 @@
+.Detalhe {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 350px;
+    height: 500px;
+    color: #FFF;
+    background-color: #292a33;
+    border-radius: 5px;
+    box-shadow: 2px 6px 9px 2px #000;
+}
+
+.description {
+    display: flex;
+    width: 90%;
+    margin: 5%;
+    border-bottom: 2px solid #323339;
+}
+
+.description h1 {
+    margin: 5%;
+    font-size: 0.9rem;
+}
+
+.description h1 a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.Detalhe table {
+    width: 350px;
+    margin-left: 7%;
+}
+
+.Detalhe .buttonDescription {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10%;
+}
+
+.Detalhe .buttonDescription button {
+    width: 80%;
+    height: 8vh;
+    background-color: #d4ce01;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #000;
+    font-size: 1rem;
+    box-shadow: 2px 4px 2px 2px rgb(27, 27, 27);
+}
+
+.Detalhe .total {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #323339;
+    width: 95%;
+}
+
+.Detalhe .total h1 {
+    font-size: 1.5rem;
+    margin: 5% 0;
+}
