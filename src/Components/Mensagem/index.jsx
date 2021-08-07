@@ -1,4 +1,4 @@
-import './Mensagem.css'
+import './Mensagem.scss'
 import React from 'react'
 
 export default function Mensagem(props) {

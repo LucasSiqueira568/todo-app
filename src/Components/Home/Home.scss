@@ -44,6 +44,11 @@ table tbody tr td input:checked {
     border-color: #14151a;
 }
 
+table tbody tr {
+    margin: 5%;
+    width: 600px;
+}
+
 table td, th {
     /* border-bottom: 2px solid darkgray; */
     padding: 2%;

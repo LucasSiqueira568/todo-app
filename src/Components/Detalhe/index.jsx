@@ -1,12 +1,13 @@
-import './Detalhe.css'
+import './Detalhe.scss'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Detalhe(props) {
     return (
         <div className="Detalhe">
             <div className="description">
-                <h1><a href="/">Descrição</a></h1>
-                <h1><a href="/">Cadastrar</a></h1>
+                <h1><Link to="/">Descrição</Link></h1>
+                <h1><Link to="/">Cadastrar</Link></h1>
             </div>
 
 

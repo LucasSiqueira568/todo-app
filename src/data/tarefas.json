@@ -1,0 +1,23 @@
+
+[
+    {"id": 1, "nome": "Compras", "tipo": "Mensal", "data": 30, "valor": 600},
+    {"id": 2, "nome": "Presente", "tipo": "Anual", "data": 30, "valor": 100},
+    {"id": 3, "nome": "Festa", "tipo": "Anual", "data": 30, "valor": 1300},
+    {"id": 4, "nome": "Natal", "tipo": "Anual", "data": 30, "valor": 2000},
+    {"id": 5, "nome": "Lazer", "tipo": "Semanal", "data": 30, "valor": 350},
+    {"id": 6, "nome": "Férias", "tipo": "Anual", "data": 30, "valor": 3000},
+    {"id": 7, "nome": "Ano novo", "tipo": "Anual", "data": 30, "valor": 2700},
+    {"id": 8, "nome": "Pagamento", "tipo": "Mensal", "data": 30, "valor": 3000},
+    {"id": 9, "nome": "Aluguel", "tipo": "Mensal", "data": 30, "valor": 300},
+    {"id": 10, "nome": "São João", "tipo": "Anual", "data": 30, "valor": 500},
+    {"id": 11, "nome": "Culto", "tipo": "Semanal", "data": 30, "valor": 10},
+    {"id": 12, "nome": "Cinema", "tipo": "Mensal", "data": 30, "valor": 150},
+    {"id": 13, "nome": "Academia", "tipo": "Semanal", "data": 30, "valor": 200},
+    {"id": 14, "nome": "Shopping", "tipo": "Mensal", "data": 30, "valor": 200},
+    {"id": 15, "nome": "Desenhar", "tipo": "Diário", "data": 30, "valor": 100},
+    {"id": 16, "nome": "Cortar Cabelo", "tipo": "Mensal", "data": 30, "valor": 20},
+    {"id": 17, "nome": "Aniversário", "tipo": "Anual", "data": 30, "valor": 400},
+    {"id": 18, "nome": "Dia dos Pais", "tipo": "Anual", "data": 30, "valor": 1000},
+    {"id": 19, "nome": "Dia das Mães", "tipo": "Anual", "data": 30, "valor": 1000},
+    {"id": 20, "nome": "Livre", "tipo": "Indefinido", "data": 30, "valor": 1350}
+]

@@ -1,17 +1,16 @@
-import './App.css'
+import './App.scss'
 import React from 'react'
+import { BrowserRouter } from "react-router-dom";
+import Routes from "./routes"
 
-import Menu from './Components/Menu'
-import Home from './Components/Home'
-import Detalhe from './Components/Detalhe'
 
 
 export default function App() {
-    return(
+    return (
         <div className="App">
-            <Menu />
-            <Home titulo="Principais Projetos" color="#FFF" fontSize="1.8rem"/>
-            <Detalhe/>
+            <BrowserRouter>
+                <Routes />
+            </BrowserRouter>
         </div>
     )
 }
