@@ -1,22 +1,25 @@
-import './Todo.scss'
+import './Home.scss'
 import React from 'react'
 import data from '../../data/tarefas.json'
-import Menu from '../Menu';
 
-export default function Todo(props) {
+export default function Home(props) {
     const tarefas = data.map((tarefa) => {
-        return (
-            <tr key={tarefa.id}>
-                <td>{tarefa.id}</td>
-                <td>{tarefa.nome}</td>
-                <td>{tarefa.tipo}</td>
-                <td>{tarefa.data}</td>
-                <td>{tarefa.valor}</td>
-            </tr>
 
-        );
+        if (tarefa.id <= 10) {
+            return (
+                <tr key={tarefa.id}>
+                    <td>{tarefa.id}</td>
+                    <td>{tarefa.nome}</td>
+                    <td>{tarefa.tipo}</td>
+                    <td>{tarefa.data}</td>
+                    <td>R$ {tarefa.valor.toFixed(2).replace('.', ',')}</td>
+                </tr>
+
+            );
 
 
+        }
+        return;
     });
 
     const styleColor = {
@@ -25,7 +28,6 @@ export default function Todo(props) {
     }
     return (
         <div className="Home">
-            <Menu />
             <div className="tituloHome">
                 <h1 style={styleColor}>{props.titulo}</h1>
                 <hr />

@@ -6,8 +6,8 @@ export default function Detalhe(props) {
     return (
         <div className="Detalhe">
             <div className="description">
-                <h1><Link to="/">Descrição</Link></h1>
-                <h1><Link to="/">Cadastrar</Link></h1>
+                <h1><Link to="/descricao">Descrição</Link></h1>
+                <h1><Link to="/cadastrar">Cadastrar</Link></h1>
             </div>
 
 

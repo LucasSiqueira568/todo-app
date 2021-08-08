@@ -4,16 +4,17 @@ import { Route, Switch } from "react-router-dom"
 
 
 import Mensagem from '../src/Components/Mensagem'
-import Todo from '../src/Components/Todo'
-import HomePage from "./Components/HomePage";
+import TodoPage from './pages/TodoPage'
+import HomePage from "./pages/HomePage";
+import Erro from "./Components/error"
 
 const Routes = () => {
     return(
     <Switch>
         <Route path="/" component={HomePage} exact/>
-        <Route path="/deleted" component={Mensagem} Mensagem />
-        <Route path="/todos" component={Todo} Todo titulo="Todas as tarefas" color="#FFF" fontSize="1.8rem" />
-        <Route component={() => <div>Page 404!</div>} />
+        <Route path="/todos" component={TodoPage} />
+        <Route path="/deleted" component={Mensagem} />
+        <Route component={Erro} />
     </Switch>
 
     );
