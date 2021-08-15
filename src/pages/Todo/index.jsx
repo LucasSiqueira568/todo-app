@@ -1,7 +1,6 @@
 import './Todo.scss'
 import React from 'react'
 import data from '../../data/tarefas.json'
-import Menu from '../../Components/Menu';
 
 export default function Todo(props) {
     const tarefas = data.map((tarefa) => {
